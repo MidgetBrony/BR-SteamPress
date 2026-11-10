@@ -6,8 +6,8 @@
     <AssemblyName>BR_SteamPress</AssemblyName>
     <RootNamespace>BR_SteamPress</RootNamespace>
     <PlatformTarget>x64</PlatformTarget>
-    <AssemblyVersion>0.3.2.0</AssemblyVersion>
-    <FileVersion>0.3.2.0</FileVersion>
+    <AssemblyVersion>0.3.3.0</AssemblyVersion>
+    <FileVersion>0.3.3.0</FileVersion>
     <GamePath Condition="'$(GamePath)' == ''">$(BOXROOM_GAME_PATH)</GamePath>
     <DeployToGame Condition="'$(DeployToGame)' == ''">false</DeployToGame>
   </PropertyGroup>
