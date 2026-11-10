@@ -27,7 +27,7 @@ namespace BR_SteamPress
         internal RssFeedClient()
         {
             http = new HttpClient { Timeout = TimeSpan.FromSeconds(20) };
-            http.DefaultRequestHeaders.UserAgent.ParseAdd("BR-SteamPress/0.3.1 (+BOXROOM RSS reader)");
+            http.DefaultRequestHeaders.UserAgent.ParseAdd("BR-SteamPress/0.3.2 (+BOXROOM RSS reader)");
         }
 
         internal async Task<IReadOnlyList<NewsStory>> FetchAsync(IEnumerable<string> feedUrls, int lookbackDays, int maximumStories)

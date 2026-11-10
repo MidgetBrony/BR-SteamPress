@@ -2,7 +2,7 @@ using MelonLoader;
 using System;
 using System.Threading.Tasks;
 
-[assembly: MelonInfo(typeof(BR_SteamPress.Core), "BR-SteamPress", "0.3.1", "Rusty")]
+[assembly: MelonInfo(typeof(BR_SteamPress.Core), "BR-SteamPress", "0.3.2", "Rusty")]
 [assembly: MelonGame("NestedLoop", "BOXROOM")]
 [assembly: MelonAdditionalDependencies("BR_MediaAPI", "BR_BookSystem")]
 

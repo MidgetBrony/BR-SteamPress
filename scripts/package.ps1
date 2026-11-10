@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$version = "0.3.1"
+$version = "0.3.2"
 $dist = Join-Path $projectRoot "dist"
 $staging = Join-Path $projectRoot "obj\package\BR-SteamPress-$version"
 $dll = Join-Path $projectRoot "bin\$Configuration\netstandard2.1\BR_SteamPress.dll"

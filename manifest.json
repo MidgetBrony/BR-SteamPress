@@ -20,7 +20,7 @@
       "required": true
     },
     {
-      "manifest": "https://raw.githubusercontent.com/MidgetBrony/BR-BookSystem/refs/heads/stable/manifest.json",
+      "manifest": "https://github.com/MidgetBrony/BR-BookSystem",
       "minimumVersion": "2.1.0",
       "required": true
     }
